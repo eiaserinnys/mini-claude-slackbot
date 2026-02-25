@@ -26,6 +26,14 @@ Slack에서 Claude Code를 사용할 수 있는 **미니멀 봇**입니다. [mpo
 
 ## 설치 및 실행
 
+### 0. 가장 쉬운 방법
+
+Claude Code가 설치되어 있다면, 아래 한 줄이면 됩니다:
+
+```
+이 리포(https://github.com/eiaserinnys/mini-claude-slackbot)를 clone하고 README.md를 읽고 설치해줘
+```
+
 ### 1. Slack 앱 생성
 
 1. https://api.slack.com/apps → **Create New App** → **From scratch**
@@ -40,7 +48,7 @@ Slack에서 Claude Code를 사용할 수 있는 **미니멀 봇**입니다. [mpo
 ### 2. 프로젝트 설정
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/eiaserinnys/mini-claude-slackbot.git
 cd mini-claude-slackbot
 npm install
 ```
